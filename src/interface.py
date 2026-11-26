@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 from src.data_loader import read_transactions
 from src.apriori import apriori
-from src.generate_rules import generate_association_rules
+from src.association_rules import generate_association_rules
 from src.visualization import plot_frequent_itemsets
 
 
